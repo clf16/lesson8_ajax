@@ -4,19 +4,18 @@
 LIS 2360:  Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+(April 19, 2018)
 
 ### Student Name:  
-(First and Last Name)
+(Catherine Finn)
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+(This assignment is to learn about ajax and how it sends data over servers)
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+( https://clf16.github.io/lesson8_ajax/. )
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. (Ajax sends and recieves information from a web serve to display updated information)
+2. (Ajax updates information without reloading the page)
+3. (Ajax is faster and better for interactive web applications)

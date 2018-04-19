@@ -3,8 +3,8 @@
 <html>
 <!-- 
 Program Name:   Seminole Movie Connection using TheMovieDB API
-Author: 
-Date: 
+Author: Catherine Finn
+Date: April 19, 2018
 Filename:   index.html
 -->
 
@@ -54,6 +54,8 @@ Filename:   index.html
                      
                      *********************************Insert Code Below********************************-->
                      
+                     id=”overview”
+                     json.results[0].overview
                      
                      
                     <!--**************************Insert Movie Release Date*****************************
@@ -66,7 +68,9 @@ Filename:   index.html
                      
                      *******************************Insert Code Below********************************-->
             
-            
+                    id=”release_date”
+                    json.results[0].release_date
+                    
             
                     <!--**********************Insert Movie Popularity Rating***************************
                      TASK #4:  
@@ -77,6 +81,9 @@ Filename:   index.html
                      Use the Movie Title code as an example.
                      
                      *******************************Insert Code Below********************************-->
+                     
+                     id=”popularity”
+                     json.results[0].popularity
             
             
             
@@ -89,6 +96,9 @@ Filename:   index.html
                      Use the Movie Title code as an example.
                      
                      *******************************Insert Code Below********************************-->
+            
+                    id=”original_language”
+                    json.results[0].originallanguage
             
             
                     <!--The code below retrieves the poster URL from the HTTP Response message and displays

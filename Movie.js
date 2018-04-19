@@ -32,7 +32,7 @@ $(document).ready(function(){
 
             $.ajax({
                 //Insert YOUR API Key after the '=' inside the single quotes.
-                url:'https://api.themoviedb.org/3/search/movie?api_key=INSERT-HERE',
+                url:'https://api.themoviedb.org/3/search/movie?api_key=e3d420adfc31d39f0c8ebbd81013ff5c',
                 data: query
             })
             
@@ -57,6 +57,8 @@ $(document).ready(function(){
                  
                  *********************************Insert Code Below********************************************/                
                 
+                json.results[0].overview;
+                $("#overview").html(json.results[0].overview);
                 
                 
 
@@ -72,7 +74,8 @@ $(document).ready(function(){
                  
                  *********************************Insert Code Below********************************************/               
 
-
+                json.results[0].release_date;
+                $("#release_date").html(json.results[0].release_date);
 
 
                  /***********************Retrieve Movie Popularity Rate from Server & Add to HTML Document******
@@ -87,7 +90,8 @@ $(document).ready(function(){
                  
                  *********************************Insert Code Below********************************************/   
 
-  
+                json.results[0].popularity;
+                $("#popularity").html(json.results[0].popularity);
 
                 
                  /*****************Retrieve Movie Original Language from Server & Add to HTML Document***********
@@ -102,6 +106,9 @@ $(document).ready(function(){
                  
                  *********************************Insert Code Below********************************************/                 
 
+                json.results[0].original_language;
+                $("#original_language").html(json.results[0].original_language);
+                
 
 
                 //The following code retrieves the movie poster path from the JSON object retrieved from the TMDB 
